@@ -1,0 +1,47 @@
+#sucursales{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+	margin-top: 100px;
+
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    div{
+        padding: 30px 30px;
+
+        h4{
+            color: #fff;
+            font-size: 20px;
+            margin: 15px 0px;
+        }
+        p{
+            color: #fff;
+            font-size: 18px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    a{
+        display: inline-block;
+        padding: 15px;
+        line-height: normal;
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.3s ease;
+        border-bottom: 2px solid transparent;
+
+        :hover{
+            border-bottom: 2px solid #c7c7c7;
+            padding-bottom: 5px;
+        }
+    }
+
+}
